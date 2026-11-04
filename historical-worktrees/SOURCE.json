@@ -1,0 +1,41 @@
+{
+  "kind": "retired uncommitted integration snapshots; historical reference, not qualified ARM64 implementation",
+  "files": [
+    {
+      "path": "historical-worktrees/tinyemu-phase2-engine/LinuxGuestRegistry.swift",
+      "originalSourceCommit": "cdfeb9f89dc47ff8a0f73e97caae21926e9d976e",
+      "sha256": "aad1cef1d45854bf2afc98ca312b9d09f735008f26254bacb677f232dba63781",
+      "bytes": 37748,
+      "blob": "0caffa9a0a4647e2944c1dcc56c33d4a29512d00"
+    },
+    {
+      "path": "historical-worktrees/tinyemu-phase2-engine/LinuxGuestRuntimeImage.swift",
+      "originalSourceCommit": "cdfeb9f89dc47ff8a0f73e97caae21926e9d976e",
+      "sha256": "d09bbb862a698530b1aab6731230fd25ccba0a1424f612f8902be67758d88824",
+      "bytes": 20871,
+      "blob": "eded75d47b323f268e1b489db22f2b287e40a38f"
+    },
+    {
+      "path": "historical-worktrees/tinyemu-phase2-engine/LinuxGuestService.swift",
+      "originalSourceCommit": "cdfeb9f89dc47ff8a0f73e97caae21926e9d976e",
+      "sha256": "4bf5655812d0d402db42072356c665984f7cb6da94ca0a2c0cf1a5650e56354b",
+      "bytes": 31741,
+      "blob": "6d80aeb0b4164068f044db0943ff3a38d2064755"
+    },
+    {
+      "path": "historical-worktrees/tinyemu-phase2-upgrade/LinuxGuestCommandChannel.swift",
+      "originalSourceCommit": "cf504beea4fb2ed173165a4fad543b8f508ce88e",
+      "sha256": "aa3aee63e9cc7a1e244fad768b160bfcf97136d5672f15c8d702754a5b6cee72",
+      "bytes": 80888,
+      "blob": "8a290e607d2519949361be076645c10edaffc11d"
+    },
+    {
+      "path": "historical-worktrees/tinyemu-phase2-upgrade/TinyEMUGuestRuntime.swift",
+      "originalSourceCommit": "cf504beea4fb2ed173165a4fad543b8f508ce88e",
+      "sha256": "e3dcc537e735a72064d7ccca5dbdec1fa5b33bc3f67928cc4a8c564752ee9579",
+      "bytes": 18492,
+      "blob": "86a0c79fdbd976627ccffb7b747495092295a76c"
+    }
+  ],
+  "license": "MPL-2.0, same as original Floe source; TinyEMU upstream licenses remain independently preserved"
+}
