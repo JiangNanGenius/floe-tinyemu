@@ -1,0 +1,817 @@
+{
+  "sourceRepository": "https://github.com/JiangNanGenius/floe-agent",
+  "sourceCommit": "169c6392107ea42cef5356a43c469f3bc0f6b051",
+  "retiredAppVersion": "1.7.69",
+  "retiredAppBuild": 310,
+  "upstreamURL": "https://bellard.org/tinyemu/",
+  "upstreamVersion": "2019-12-21",
+  "upstreamArchiveSHA256": "be8351f2121819b3172fcedce5cb1826fa12c87da1b7ed98f269d3e802a05555",
+  "files": [
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/.gitignore",
+      "sha256": "75faf7794319b7d7489d9575159eeab6b7a5e84fd39b4e65db798b2ba1e1e0fd",
+      "bytes": 83
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/README.md",
+      "sha256": "8a9be641a66f2e4bc4624a490dd70d5055105e18c714ee8f8cc817394a7a2d01",
+      "bytes": 26585
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/bench/guest_bench.py",
+      "sha256": "5346b3cc1a342f62ad2112a34934dc58370bc2dda68e8696f46420bd24604f89",
+      "bytes": 6053
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/bench/profile_guest_bench.sh",
+      "sha256": "09eab7d55dabcca3cdb53db05761e87688c130c83f401cf40a3d658b6f1fc8d4",
+      "bytes": 2311
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/bench/run_guest_bench.sh",
+      "sha256": "352c10c42046dcaca0e3a1d53b0bc2c097f0f7f7b155a5261d8b8f5c9c605b02",
+      "bytes": 3487
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/bench/workload-equal-work-3.txt",
+      "sha256": "4a82f7ba6c5ed135397a279bf718bdc1197f80ce59c59a796aa0882a510c1635",
+      "bytes": 1266
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/containment_test.c",
+      "sha256": "9d446186ac50f794d5494578d40f6ab15c3b6df516a7f37fa99e14ff63af2bdd",
+      "bytes": 17875
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/fid_stat_test.c",
+      "sha256": "4578a2b77fa47c6b4af01db555cde63bca4365a2af6293d3235b954a80faf83f",
+      "bytes": 11438
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/floe_vm_host.c",
+      "sha256": "f0fdb3317078384777c0a003a57f4a58151088d8ef55e651440bc7026c1e7854",
+      "bytes": 11159
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/guest-scripts/smoke-embed.txt",
+      "sha256": "5c9124c2d931941cd283dadeb140c689e7929278d389662b1dd0b62f344df288",
+      "bytes": 264
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/guest-scripts/smoke-net.txt",
+      "sha256": "0a017fc599b99da996bb1cb636bdbb5bb2abdb20ea135eb5a12439e436e63fc4",
+      "bytes": 164
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/lifecycle_test.c",
+      "sha256": "7ddde0ae8983a55ebf91bc6a045a2b1f33541348ce82c19d1b1c15cb3ed598d5",
+      "bytes": 13426
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/multiclient/MultiClientChannelCheck.swift",
+      "sha256": "3c1ddc8acd99146f832b60c59cb2c37fc69d496d294ef37bb78e747beaff29d2",
+      "bytes": 46980
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/multiclient/mc_guest_bridge.c",
+      "sha256": "91178efc5a824686a08d8884525ec1bcb9634b3cbe471d3565a3d1bd8b33bb9a",
+      "bytes": 7133
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/multiclient/multiclient_guest_check.sh",
+      "sha256": "2482e39a23fda48f1f2db7bd9b2989d2e8707abbb9dbd14f630b699e5a2ae2ef",
+      "bytes": 2910
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/multiclient/multiclient_host_check.sh",
+      "sha256": "6aeb5011bc48ce2186ccb59dcfdb564564bba566b13f13e244bafee21a49b291",
+      "bytes": 5959
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/run_local_smoke.sh",
+      "sha256": "0015fc5cc2fef83a9cfab3cfe74a36c200d26087b154b8b7b10c71d5f22963ba",
+      "bytes": 3407
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/run_slirp_sigpipe_test.sh",
+      "sha256": "417d5207c663ed55550ca33186f89287bb98303036267e9ef9df275d2f22f6d2",
+      "bytes": 857
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/slirp_sigpipe_test.c",
+      "sha256": "9337d0f6060150aa1b88828a357a232088aea55040288e8018680c9180e459b6",
+      "bytes": 1108
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/smp_host_test.c",
+      "sha256": "4554f029bc5770d17d7b68762aec50e5a74815867fa0928f110d8ff78516f02e",
+      "bytes": 20675
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/smp_workload_check.py",
+      "sha256": "44f736eb258cc4538e12824c5d20cfb0548c9fcd4412e29005e58427ef1ab528",
+      "bytes": 15462
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/tests/smp3_workload_check.py",
+      "sha256": "ea2a39927e586ecc001f3e477f336570e0a416b1b3f1ca4446c28e77d8d5c1ec",
+      "bytes": 11257
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/tests/test_drain_fastpath_interleaving.py",
+      "sha256": "edc11d5396aecf638167f6d3de1955e5bfb74c101ba0c8088067c26614a68995",
+      "bytes": 10574
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/tests/test_smp3_workload_check.py",
+      "sha256": "fb7e8bdf9b8bf3286eba5579bcf7700e833a84a1a6eba25f71ab32de5c9a1047",
+      "bytes": 6787
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/tests/test_smp_fastpath_interleaving.py",
+      "sha256": "44b4bfe479574e3f3bae4cb2be9c6ca6eef8351f0c52438c684be71698358ccd",
+      "bytes": 9991
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/tests/test_smp_workload_check.py",
+      "sha256": "c08241222a4eb741178343455c2b121b3f2405d3d4d74319195185a227d0eba2",
+      "bytes": 17528
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/tools/pty_boot.py",
+      "sha256": "2c95cf41d7269fd38eecddbc17196fdbba3aaea7a2fc0d400d429320b6503ea1",
+      "bytes": 3283
+    },
+    {
+      "path": "FloeAgent/Qualification/TinyEMULinux/two_vm_test.c",
+      "sha256": "5cd14056dd6b00b967087cdee9b50b10cd36e000f5696ed17e604bd7648d03d3",
+      "bytes": 19237
+    },
+    {
+      "path": "FloeAgent/Tests/FloeTinyEMUTests/Makefile",
+      "sha256": "f3afbf886695e9fd68142600bfc67fa6519354ec67123c11aab39fd43c90121b",
+      "bytes": 2888
+    },
+    {
+      "path": "FloeAgent/Tests/FloeTinyEMUTests/gen_smp_payload.py",
+      "sha256": "981c50850873bb0024c2d3e446a9963fd17e18c1bc557ab946d61f1da87e8ab8",
+      "bytes": 68902
+    },
+    {
+      "path": "FloeAgent/Tests/FloeTinyEMUTests/run_negative_control.sh",
+      "sha256": "7ec11fcc549c92ed3f93bf68c606bf3dd01f203b0f2989340066c12bca1121ad",
+      "bytes": 4388
+    },
+    {
+      "path": "FloeAgent/Tests/FloeTinyEMUTests/run_smp_tests.sh",
+      "sha256": "95a7ee46569083b1737236a3c6e78e7fc203686852e9e4c89d714483b744da01",
+      "bytes": 254
+    },
+    {
+      "path": "FloeAgent/Tests/FloeTinyEMUTests/smp_bench.c",
+      "sha256": "d3ca4c9bba06f2e737544b5107af3478ecf4d48155fa929d58742ad7aa6f784a",
+      "bytes": 7367
+    },
+    {
+      "path": "FloeAgent/Tests/FloeTinyEMUTests/smp_host_test.c",
+      "sha256": "724c76e0848c3740456425cee578c917b68c64510a635a598aa93aa84701909c",
+      "bytes": 23805
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/LICENSE-INVENTORY.md",
+      "sha256": "93ba9044e0c85999ae89f1ec2609d0c731e43f35587e8f8d5b1278390d4ed792",
+      "bytes": 7815
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/MIT-LICENSE.txt",
+      "sha256": "a75690160a50d8085bcd25acf34faa5b1c484e15ffd0bd662e5f4d7a289da080",
+      "bytes": 1064
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/PROVENANCE.json",
+      "sha256": "e21629d7a49517722321871468d3cdf932c523c595753b491760fe64b2710147",
+      "bytes": 14394
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/README.md",
+      "sha256": "0ba8ceb45b7f6c8b9daba20678ed70d8643b1c9d1c967559f35b6a0e0a6f30a6",
+      "bytes": 8720
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/adapter/floe_vm.c",
+      "sha256": "c932ca9f9f289cf712699578a91dd1567b770449e2d0c0d58ac489c04e27d1f1",
+      "bytes": 26
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/cutils.c",
+      "sha256": "e2ef6984f80eae61b722a4ab6f75d06fd9139bcc0602d7e77adb0cc7f76d95a5",
+      "bytes": 2947
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/cutils.h",
+      "sha256": "ef5d66b3a8f3097bce57440e72e31e916e9baa1af0d04328c41d4b72d770f36d",
+      "bytes": 4522
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/fs.c",
+      "sha256": "5586dabd418cb933ecea516397d2879c359e11950ef65ada9e70d2f626692853",
+      "bytes": 2876
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/fs.h",
+      "sha256": "75308e626d933ddf187b02593fd8f55e8ceb444a32aa0588ca906acf63c384a6",
+      "bytes": 9124
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/fs_disk.c",
+      "sha256": "e6efd8998903bd5f1f3b4be3007a974bd6635fd12ae42fff1f14223190a43cc7",
+      "bytes": 29671
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/fs_utils.h",
+      "sha256": "2a74960ae7d19d61dd129bc91fbe3bb9e8d56140433aa88118bc10b7193922b0",
+      "bytes": 3385
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/iomem.c",
+      "sha256": "cda0900a7e14057f4091ba28430b2c94240291ffe347e7e2820ed48d65b51ed8",
+      "bytes": 8512
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/iomem.h",
+      "sha256": "b49bc463fbf3e628c1a30acdfa72c2b3d1533efac2a08d3478875754cc26cd8b",
+      "bytes": 5912
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/json.c",
+      "sha256": "c7d82ae4fafa5cfad8b84584f146deddb9dee2d1c78f63f82d4827f650af4e42",
+      "bytes": 11736
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/json.h",
+      "sha256": "ff535c4bcf736686e53d4ce11d9ae32e26bbe63c2ae7001a36474a94e4eddb0b",
+      "bytes": 3356
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/list.h",
+      "sha256": "9a587de4568f3a4ffa50681c480d41254ccb8ca479efdd824866622f34e57582",
+      "bytes": 3033
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/machine.c",
+      "sha256": "253920242f23327202daeb724dc6a35ff24b6dc9fc253bb5f8a48f4af5319b55",
+      "bytes": 17258
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/machine.h",
+      "sha256": "7cb44b693f99d77f999358a25808b29df5872cb4c4c36b4e71861840ed0f44af",
+      "bytes": 10047
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/pci.c",
+      "sha256": "8507dcba459d8ac4bc4cd33330f9632e76972bae59f8332fbff282aebc7179c0",
+      "bytes": 15950
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/pci.h",
+      "sha256": "29026bdc8e1bf2d4361c6c568b9d16b7b2c7c110618478f6b9d25ebc4e211ea9",
+      "bytes": 3358
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/riscv_cpu.c",
+      "sha256": "20e46da9dcaacd84881c42996c88114d83c9e97a0ddb6934471a584ef0ccf961",
+      "bytes": 76301
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/riscv_cpu.h",
+      "sha256": "69320cb129e3ba400685de57825c999ef9fe6ed46e08674368848b2d09157b27",
+      "bytes": 8116
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/riscv_cpu_fp_template.h",
+      "sha256": "61e7c90826d27576dc53e39cbd1ae83b7d100bcf3e27d9400f40fe07d1254156",
+      "bytes": 12426
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/riscv_cpu_priv.h",
+      "sha256": "022c2d90b50aab22bb875b5ad481ef8061eae1e4d76c4553932dee79a41dfc82",
+      "bytes": 14927
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/riscv_cpu_template.h",
+      "sha256": "837373bf701370d813df4a4485719ab310d6bf894c1eb201777b294252bbd7d8",
+      "bytes": 67841
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/riscv_machine.c",
+      "sha256": "138ed9dd2b943398fe81cb07a3818fe506e852b22b720ff34115b08706b9ef6b",
+      "bytes": 42641
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/simplefb.c",
+      "sha256": "89d7267f4726681e2f96584316063a9f538a04320456b9593deb4636630f6c74",
+      "bytes": 4236
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/bootp.c",
+      "sha256": "948835402c8fe76dd435b204a81e9dd9c3fcb50248e274bdd16a077ea94c3d0b",
+      "bytes": 9207
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/bootp.h",
+      "sha256": "84e85517c822c939ee7a39bd9e9a6a69da9e272b0626719bf771b49038ea0763",
+      "bytes": 3170
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/cksum.c",
+      "sha256": "668ef7e13d3cdc2f095e1d452546e01b57f8ef1d1a79bc8e520dd2f52269a737",
+      "bytes": 3941
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/debug.h",
+      "sha256": "c6c1894d49710aa6ecea1f2b8b4ec08b5d678b2d323e8f9442048e5b4c8d193f",
+      "bytes": 865
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/if.c",
+      "sha256": "3ffb9e9e6a3e951652e1770d8dcfe33af4c6307c563b2b3fa8782e14c9374e4f",
+      "bytes": 5733
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/if.h",
+      "sha256": "46203ac142ed84fa836ed3ccb7a81ba83dd3bd89e8441030ddf9e69ad10d0d17",
+      "bytes": 636
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/ip.h",
+      "sha256": "ffcf9316dc66d0b4827b4f7dc2e65a1049fc6715b2a306a8371b92cff66905c4",
+      "bytes": 7694
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/ip_icmp.c",
+      "sha256": "513b72aabc79cf5d2d86077413e907d825e682a059d847d6d3ef432b460e6b7c",
+      "bytes": 11006
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/ip_icmp.h",
+      "sha256": "eb62c983f02d445dbe83753675b98ccd2a8b35b9fd6378e713e6ae6d3613f82e",
+      "bytes": 6386
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/ip_input.c",
+      "sha256": "cfccfb1c9a66fc1060a8a937747dd978f22bbb9c899f9030bcf155c896654dd0",
+      "bytes": 19342
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/ip_output.c",
+      "sha256": "94045fe58e6c9a00b13a3d0141e5e3863ab16915f8bfce6c83e8d44af89fda81",
+      "bytes": 5322
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/libslirp.h",
+      "sha256": "5e2334a49286ab913400e0e11c4f7276ecf35d0bb91e2b16e2883aff068301cb",
+      "bytes": 2364
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/main.h",
+      "sha256": "fe3827876c44301214053792a7234e433a6d8c106a27aceeee56c213da0ee3a2",
+      "bytes": 1353
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/mbuf.c",
+      "sha256": "689678d8b6fee57b0d5712ee17cd87b5cb7a6db63f1fe156f15c0a9af8ad6cc8",
+      "bytes": 4767
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/mbuf.h",
+      "sha256": "a07768ccedc820f0c2dcb9b24df013b925b4ec37195f15e736c868fff6b81812",
+      "bytes": 4649
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/misc.c",
+      "sha256": "344e338b2c06fb586ce57b91bebb616e7184ea8e7cf74882ef551f9252ee36b1",
+      "bytes": 10651
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/misc.h",
+      "sha256": "d26857665fb9c82dc991dfc6acec6addabedaff12970198430271a00d655c8be",
+      "bytes": 1669
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/sbuf.c",
+      "sha256": "6c40c00b27da7273cac6b8dc8463b848d6d01bbaba8c64fb0542ba0267aa4f47",
+      "bytes": 4068
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/sbuf.h",
+      "sha256": "e9a9ccc5434b6160313e8f3c3e66f3436151c1b116d7f4361d11d53d9fe0c278",
+      "bytes": 900
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/slirp.c",
+      "sha256": "d09217b86108e62fdbb8a272d9a974b498dc686841ae216a50914f2e90290128",
+      "bytes": 25331
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/slirp.h",
+      "sha256": "d463c05fd2508e990b2110a2432d27e4bb06b251e6a4c382ae84dd782f05d140",
+      "bytes": 7421
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/slirp_config.h",
+      "sha256": "442bfd4122390a9797d76ee310d00a8715c9d779b7279a0039ab2e83b075806d",
+      "bytes": 4331
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/socket.c",
+      "sha256": "f1bc677594a5bdff2c7b4770959c10de75a5e3c8253b010fcf93b97c69698aee",
+      "bytes": 18222
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/socket.h",
+      "sha256": "ced117c7320ead8344392faf5a4a00b79e6cb3337ef2aa4471722cea2e74e8ac",
+      "bytes": 3567
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp.h",
+      "sha256": "d84497c4d056c3f82a2d464d0797c139fccbbc99dab53f9ce62673564ca033ec",
+      "bytes": 6011
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp_input.c",
+      "sha256": "81c7350b64646bbdaa1e1c10a8cd99f104c9120f97ea97a9b7833a6296cbccc3",
+      "bytes": 42519
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp_output.c",
+      "sha256": "29702d27dfa945626f0cc59b8340ff6cac249eb4fda6ccca39b567fd9e2957cf",
+      "bytes": 14559
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp_subr.c",
+      "sha256": "cb4169174b4b3e0d37f420edf568944e10c4277f93763540c5a840ea0e2c2fa1",
+      "bytes": 27174
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp_timer.c",
+      "sha256": "a57801374ce42f402871c4e680dda9990b61725cfa12b78028cacdd4bcb6468a",
+      "bytes": 8885
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp_timer.h",
+      "sha256": "3bb47b0284f10120759568ffc253521e8f93409ab440612f613a3978a6e4c5d9",
+      "bytes": 5413
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcp_var.h",
+      "sha256": "9527972eae9a6329a01c83f8c6bdc0c9906ebce27a05679380888447d93b567d",
+      "bytes": 6730
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tcpip.h",
+      "sha256": "8349d146da609fd6e42fba359fed4d5155397a40b805b1132e9da21a00f48699",
+      "bytes": 3087
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/tftp.h",
+      "sha256": "4c91d9f5b5fecbf8e4b359754597cfb2756ee2dd53108a4354e2495c7ed4d484",
+      "bytes": 745
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/udp.c",
+      "sha256": "bf43def6bc00de1b9c29294ebe3dec9befad6743e46d528102d355178e864e80",
+      "bytes": 10333
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/slirp/udp.h",
+      "sha256": "01c38c8897fb936092a509ac88145007c961f93a8a5671d76baa31400cf67821",
+      "bytes": 3341
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/softfp.c",
+      "sha256": "06b55368871da1fe972ac9ffb22ad52bad5a38f670884017af8111706517fd78",
+      "bytes": 2070
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/softfp.h",
+      "sha256": "c408410c4795a7e78b40eb464a2dea4d0c8ebfdb95885f7023ce8c2b1d7686a0",
+      "bytes": 8659
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/softfp_template.h",
+      "sha256": "5adc7e51ae3f70c3dc301e0a8b725af49d0249523967dcfe082ab8b35207bf8e",
+      "bytes": 30793
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/softfp_template_icvt.h",
+      "sha256": "cf0de3682709ed7e359683174aa2b3c23dc927b5a27cbdc19c94dcbae01b7a81",
+      "bytes": 5834
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/virtio.c",
+      "sha256": "f1122efc33a6dd57e728a678a11f98c8dd0bcaa6cf9cf082f735ec8911293a18",
+      "bytes": 86814
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/engine/virtio.h",
+      "sha256": "3b4b570aac207441e0f13a7b28f4c939fd8fbefd18837d940166881605016a10",
+      "bytes": 4697
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/include/floe_vm.h",
+      "sha256": "0261ccc7a360b599dc30cf367200a25273bc1156dd0b9634e5a4036ea32182ec",
+      "bytes": 26
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/shims/byteswap.h",
+      "sha256": "ba7798fc83ef8e8cb79ca2f2bb1afb170725f973aab4a235f56a74c553b7a0f1",
+      "bytes": 432
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/shims/sys/statfs.h",
+      "sha256": "fa87258ef400fc1d1ec1e18d2231184d24722dd30565eac9469438291cf8f178",
+      "bytes": 340
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/shims/sys/sysmacros.h",
+      "sha256": "5f3ace27a13a02005fcb1565b310bc06d6cacef2b2dfeb8cf9c207d32b0a5576",
+      "bytes": 324
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/wrap/riscv_cpu32.c",
+      "sha256": "aa40d49db722756b524ba0c0d3392f807c22bc6341a1aa23bc8d45214b9cb339",
+      "bytes": 351
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/Sources/FloeTinyEMU/wrap/riscv_cpu64.c",
+      "sha256": "5f542c3096a9acdfd7043ac88c74bebd518e9629b6cac94b0310b98d57443efc",
+      "bytes": 78
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/VENDORED-SHA256SUMS.txt",
+      "sha256": "bd757a4d8f56627d0c9125f580e9e18adf1d58c34345a343f0ad9a1795a8d790",
+      "bytes": 4978
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/Makefile",
+      "sha256": "85b6f4fd2153111280e3eee81bb749316e6639867022bd518affa2a7cac24454",
+      "bytes": 8541
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/floe_vm.c",
+      "sha256": "36eeced61e340353b228e03756bcc0a6200b90036fdca0a92fe43ea112e0bcd4",
+      "bytes": 30877
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/floe_vm.h",
+      "sha256": "09da49fd12adf7fa00221ad60defc4e969520ec6f79c77c4d113af72c0221226",
+      "bytes": 10448
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/macos/byteswap.h",
+      "sha256": "ba7798fc83ef8e8cb79ca2f2bb1afb170725f973aab4a235f56a74c553b7a0f1",
+      "bytes": 432
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/macos/force.h",
+      "sha256": "efd12e305f955ae175add01b6ed50696b65200439010f44188cdc48299745a64",
+      "bytes": 432
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/macos/linux/if_tun.h",
+      "sha256": "2854a021a67f21f94b17e850c3c6cc21071babff9efcac906c098c1280d1e0be",
+      "bytes": 463
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/macos/sys/statfs.h",
+      "sha256": "fa87258ef400fc1d1ec1e18d2231184d24722dd30565eac9469438291cf8f178",
+      "bytes": 340
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/adapter/macos/sys/sysmacros.h",
+      "sha256": "5f3ace27a13a02005fcb1565b310bc06d6cacef2b2dfeb8cf9c207d32b0a5576",
+      "bytes": 324
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/fetch_source.sh",
+      "sha256": "1e19b4c95e0c988a98b909facf948376383254ffcebae3e31c2d07c8f2fd33d9",
+      "bytes": 2329
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/.gitignore",
+      "sha256": "f48a7fd127840e049a0b9c03de4f30e3cbed6026b0d32897db8dc1317f18a727",
+      "bytes": 412
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/BOOT-PAIR-LICENSES.md",
+      "sha256": "c7776846a1b612b3ef3ad6432c4336aa06ac0dd588e2fb966e140e2e1f919bee",
+      "bytes": 5594
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/README.md",
+      "sha256": "064eaee87de1e6c776151b9bd3b029343b3c37fcbcec3a0ebf64ef5ec0f22f30",
+      "bytes": 1624
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/boot-pair-v2.manifest.json",
+      "sha256": "6a104f7931a17b98c3d227919e9d248cb5952df2cd845aa8f056eda8dd693f69",
+      "bytes": 1201
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/build-kernel-bbl.sh",
+      "sha256": "fe275e895994a8695e1b2f57ded0e88867af588fd2c90687ca160841ba91249b",
+      "bytes": 25711
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/bundled-boot-pair/README.md",
+      "sha256": "0ce734ef1f6e0b7ced719a2f4926d3f34c97eafe5779ce0b7f97e62a7cc07e1c",
+      "bytes": 1193
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/bundled-boot-pair/boot-pair-v2.manifest.json",
+      "sha256": "6a104f7931a17b98c3d227919e9d248cb5952df2cd845aa8f056eda8dd693f69",
+      "bytes": 1201
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/config_linux_riscv64",
+      "sha256": "442e3380b626a19eeed01f2142284fc7ba58e2829f5f7162e9e3f44bce65d2af",
+      "bytes": 37031
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/config_linux_riscv64_6.18.56",
+      "sha256": "e7058fe40e27e8d56ca10ec5e7a1bf2969bc6de07078fe2d95f5ebd3098f7cb5",
+      "bytes": 187338
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/config_linux_riscv64_smp.fragment",
+      "sha256": "1a32031fb78f305b567cf24d6abc013fbd4a60a9365e86f080e0d7dda5c903f0",
+      "bytes": 980
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/config_linux_riscv64_smp3.fragment",
+      "sha256": "6bc9e430a91ff0cc7b7c60e5879d468ed00fbda89db45f3be38f1635a1247b39",
+      "bytes": 270
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/pinned-inputs.json",
+      "sha256": "b502a873dafe6f5b8b367663fb9bde3f1b50123c9fbc071fd306b11c95cc00f9",
+      "bytes": 6388
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/readme.txt",
+      "sha256": "a05f71a1ac4661bae2e772f2982dd9f6d0ef5ce944f304b49ffd93272a3dd832",
+      "bytes": 231
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/riscv-linux.diff",
+      "sha256": "48999c3aca770205b6cd01546e429f431a4d01f3d28c5317568a06849804409d",
+      "bytes": 785
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/riscv-pk.diff",
+      "sha256": "ee5c9335ff9f7501d04b1f50dbf95c66ce7d22aaaf5bcc102eeae51f2b825fcf",
+      "bytes": 7211
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/guest-image/stage-boot-pair.sh",
+      "sha256": "9620fe501ed9573510d5b7392d32a7c90c176e1f0977305f7933a371054045e4",
+      "bytes": 4194
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/license_check.sh",
+      "sha256": "35eb76d04b28247613015b4c551ecd177e70bbbde76c036f51bc369a8ea2b751",
+      "bytes": 1303
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/licenses/README.md",
+      "sha256": "0a892a3bd328c68dee3fbe622caa7194fc194154dbb6fba1da3831294c4b6438",
+      "bytes": 2363
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/licenses/SLIRP-COPYRIGHT.txt",
+      "sha256": "6aa542ccb77b884dbb8e8c4620f3471111e5648fe341147befcf933ea30d764f",
+      "bytes": 2821
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0001-htif-poweroff-callback.patch",
+      "sha256": "a9a991c4a8223d7a1b352e3091a807ab020a0303fdf59716f29cbf5aaff3651a",
+      "bytes": 1146
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0002-embeddable-error-propagation.patch",
+      "sha256": "8c004a000084987db0c9a6e37b458a1ab2c4390239fa5bdf12de815d14e11233",
+      "bytes": 4520
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0003-fs_disk-apple-stat-timestamps.patch",
+      "sha256": "d5b505a942ca32c2074a6ba63cd45f94b13aad107d77de37abd0a0a7ec4404b1",
+      "bytes": 558
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0004-slirp-bootp-debug-typo.patch",
+      "sha256": "ea2684cfbcc8c8621b0dca95d0267142222021f643ddfb2c91ddf63871657abc",
+      "bytes": 322
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0005-fence-hints.patch",
+      "sha256": "c9a5e7c9fba9953f6435fe9b3fc2ae549931c746ea9b510e1dd81bcc3f757b1c",
+      "bytes": 1244
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0006-slirp-per-instance-state.patch",
+      "sha256": "66d27ae05ab73d608bba1c280c4762a62836cec2ae3d17b9bc923276cdd0b04b",
+      "bytes": 14782
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0007-9p-export-root-containment.patch",
+      "sha256": "6264b7a08e1d614af2e35079113e7496b2974121dcf1a3fe6e479e44354e77da",
+      "bytes": 23578
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0008-recoverable-guest-fault-paths.patch",
+      "sha256": "0b045974de13e8f7368835d16d8dcdc716a1e25fe5abe2bf1c8cc8337e164013",
+      "bytes": 7713
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0009-9p-unlinkat-xattr-semantics.patch",
+      "sha256": "cf3c9ef2a27dc9398fd49a97c5b390258126e29685a27a92cd5ec6a7118fd347",
+      "bytes": 6106
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0010-smp-dual-hart.patch",
+      "sha256": "be1b7028820f969dac0af59ac2072a082e5353c585fe57fd1701ea94188d8185",
+      "bytes": 100704
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0011-slirp-no-sigpipe.patch",
+      "sha256": "4a18d21ae59823777f2db800a9c5e9357aa03031f52db77da9f0e0f66930452d",
+      "bytes": 2088
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0012-htif-fdt-reg.patch",
+      "sha256": "8cc185551ab9fc93523f5d6f7f1587f8d503db8f4a9ebd866cb9ec0f3e92abf1",
+      "bytes": 866
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0013-mid-csrs.patch",
+      "sha256": "f73c3ba5041ead02a8ad44c7ddd00a1d6dfe7972e1ba12fc0205a12994b2dcbc",
+      "bytes": 750
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0014-canonical-isa-string.patch",
+      "sha256": "e7915eb1a460c0b4baf594201e617b7a96d542e7b79d629e999a6ace9104473d",
+      "bytes": 1623
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0015-time-csr.patch",
+      "sha256": "af1c48c55cf07da3c4f168b25293246f1ec292070dcf76dcafd705c1055892f5",
+      "bytes": 5136
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0016-htif-console-getc.patch",
+      "sha256": "45833fac9367ea8ec729d1c5264073f9ee734a2f4b4350e5e52967e0f780fd08",
+      "bytes": 1181
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0017-fw-reserved-memory.patch",
+      "sha256": "5416893bd477d485fd2452920d5087086166e061638c86563e4f683072d03f46",
+      "bytes": 1687
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0018-virtio-queue-num-max.patch",
+      "sha256": "d444719256d8045cdaeb176c0675e78206e1b125617934bccfd6fc983c75f8fe",
+      "bytes": 988
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0019-fs-open-dir-detect.patch",
+      "sha256": "adb300f3469a31eecde3a0039693100c156ccbbea221326e237843de3b7edd7d",
+      "bytes": 914
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0020-slirp-quiet-debug-default.patch",
+      "sha256": "477ee955f53c96a279e648412c60ed7a29db910776fcdf0dcee79ccd25c0e51a",
+      "bytes": 274
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/patches/0021-9p-opened-fid-stat.patch",
+      "sha256": "8a61e1328f0c8b06e08b3f0acb4d8e5b52ef73aa3bfbdf3f13a62b79278824f4",
+      "bytes": 1324
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/regen_smp_patch.sh",
+      "sha256": "3cc06aaf9fa3bed86c9aa3467d5c208f2fe0a61a2074b9830915b02bef595e0f",
+      "bytes": 6031
+    },
+    {
+      "path": "FloeAgent/ThirdParty/TinyEMU/vendor_swift_sources.sh",
+      "sha256": "acf349d4e5d382268ef840f1c4cb21054ab4c1021055be4e8d47a0ebe259b9c6",
+      "bytes": 11055
+    },
+    {
+      "path": "integration-reference/TinyEMUGuestRuntime.swift",
+      "originalPath": "FloeAgent/Sources/FloeExecution/Linux/TinyEMUGuestRuntime.swift",
+      "sha256": "5412ce88d6f5bddfd4dfcab083caae504b039379f1632b073a3cc870514dc5f0",
+      "bytes": 38577
+    }
+  ]
+}
