@@ -1,0 +1,1 @@
+Historical Floe integration tests retained before retiring TinyEMU from the App. Some files also contain shared command/pool tests whose current replacements remain in the App repository. This is a source reference, not a standalone claim that these tests compile or run without the historical App fixture modules. MPL-2.0.
